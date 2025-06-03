@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "29280711"))
 API_HASH = environ.get("API_HASH", "dee470a80bdf8f52464b57fe594cac45")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7927640946:AAGTGqIZ6ILKvHk-xtLZxD9_CAyfm8obLqY")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/H6I.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7418291817').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Chocolate_stream_bot") # without @
 PORT = environ.get("PORT", "8080")
